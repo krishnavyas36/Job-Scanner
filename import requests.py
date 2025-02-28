@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from serpapi import GoogleSearch
 import openpyxl
 
-SERPAPI_KEY = "61ba0b7e529437e98014f05ccbec7288fdf4a00cbe66cb4adf24984d4e668953"  # Get a free API key from https://serpapi.com/
+SERPAPI_KEY = "3"  # Get a free API key from https://serpapi.com/
 
 def search_career_page(company_name):
     params = {
